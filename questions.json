@@ -1,0 +1,91 @@
+{"intents": [
+        {"tag": "Options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["Customer Onboarding","Policy Statements","Death Claim Intimation","Branch Locator","Other Services"]
+        },
+        {"tag": "Emailaddress change",
+         "patterns": ["How to update my email address?", "How to change my email address?", "Wrong Email address","Email Id change","Mail Id Update or Change"],
+         "responses": [" Send SMS through registered phone number:MYEMAIL <> (Your Policy Number) <> (Your new email ID) and send to 56161 OR 9250001848","By Login into https://smartcare.sbilife.co.in >> Service Corner >> Profile Update >> Email","Filled request for change in Contact Details form at the enarest SBILife Branch office"]
+        },
+        {"tag": "Products",
+         "patterns": ["What are the plans avialable?", "How to see the plans based on my requirements?", "Products Availabe?"],
+         "responses": ["Visit https://www.sbilife.co.in/en/individual-life-insurance/"]
+        },
+        {"tag": "DOB Change",
+         "patterns": ["How can I update or correct DOB details mentioned in my policy?", "How to change my DOB?", "Wrong DOB or Date of Birth","Date of Birth change","DOB Update or Change"],
+         "responses": ["Duly filled and signed Request For Change In Policy Details Form. Self-attested birth proof (please note that this has to be submitted within 6 months of the request and is to be attached with the form). Self-attested ID proofs such as PAN or Masked Aadhar card. You can download the form from our website: www.sbilife.co.in >> Download Center >> Policy Servicing Forms >> Request Change In Policy Details Form."]
+        },
+        {"tag": "Value of Policy",
+         "patterns": ["How to know the curret value of policy?", "Value of my current policy?","How to see my current value of policy?"],
+         "responses": ["Send SMS to 56161 OR 9250001848: FV <<space>> (Policy Number)","Give a Missed Call on 022-62458501 to know your fund value"]
+        },
+        {"tag": "FundSwitch",
+         "patterns": ["Details about your last fund switch request", "Where to find the details of last fund switch request?","How to get the details about your last fund switch request"],
+         "responses": ["Send SMS to 56161 OR 9250001848:SWTR <<space>> (Policy Number)"]
+        },
+        {"tag": "PolicyStatus",
+         "patterns": ["How to see the status of Policy", "Where to see the status of Policy?","Status of Policy details","Get my policy status"],
+         "responses": ["Send SMS to 56161 OR 9250001848:POLSTATUS << space >> (Policy Number)"]
+        },
+        {"tag": "PremiumRedirection",
+         "patterns": ["How to move funds with ease?","Change the funds or premium?"],
+         "responses": ["1. Login to your account on Smart Care - Our Self Service Portal and Select Fund Redirection under Services Corner in the menu and proceed with your transaction.","Vist nearest SBILife Branch and  Submit the duly filled Fund Switch and Redirection Form"]
+        },
+        {"tag": "NewPolicy",
+         "patterns": ["How to see the Policy Dispatch for  policy purchased within 6 months?","See new Policy dispatch details"],
+         "responses": ["Send SMS to 56161 OR 9250001848:NEWPOL << space >> (Policy Number)"]
+        },
+        {"tag": "PremiumPaidCertificate",
+         "patterns": ["Premium Paid Certificates?","Where to get Premium Paid Certificates","How to see Premium Paid Certificate"],
+         "responses": ["Oniline: Log in to your MyPolicy account through customer Self Service portal and Select Premium Paid Certificates and download certificate financial year wise.","MissedCall: Get your Premium Paid Certificate by giving us a missed call at 022-62458504 from registered phone number","Visit SBILife Branch and request for Premium Paid Certificate"]
+        },
+        {"tag": "PremiumPayment",
+         "patterns": ["What are the premium Payment Procedures?","Various ways to pay premium?","How to pay Premium online?","Online Payment of Premium?"],
+         "responses": ["https://www.sbilife.co.in/en/services#premium-payment-procedure"]
+        },
+        {"tag": "MyPolicyCSSPortal",
+         "patterns": ["How can I pay premium online from MyPolicy CSS Portal?","Pay premium through MyPolicy CSS Portal"],
+         "responses": ["Log into https://smartcare.sbilife.co.in >> Premium Payment>> Pay Premium Online. Choose from the three available payment options - Debit Card, Credit Card and Net Banking."]
+        },
+        {"tag": "SBILife Portal",
+         "patterns": ["How can I pay premium online from the SBI Life Portal?","How to pay premium through SBI Life Portal"],
+         "responses": ["Visit our website www.sbilife.co.in >> Pay Premium Online link. Enter your Policy Number, DOB and Mobile Number>>If Records Match ,Choose from the three available payment options - Debit Card, Credit Card and Net Banking."]
+        },
+        {"tag": "PremiumDate",
+         "patterns": ["What is my premium due date?","When is my premium due?","What is the due date for my premium policy?","How to know the due date of my premium"],
+         "responses": ["Visit our website www.sbilife.co.in and Log in To your account to check","Send SMS to 56161 OR 9250001848:RENDET << space >> (Policy Number)"]
+        },
+        {"tag": "PremiumGrace",
+         "patterns": ["What if I have the funds but miss the due date to pay premiums of my SBI Life-Smart Future Choices policy?","What happens if I miss paying the premium amount on the due date for the SBI Life- Smart Shield policy ?","What happens if I cannot pay my premium for the SBI Life - Smart Champ policy on the exact due date ?","What is grace period if the due date is missed?"],
+         "responses": ["No worries,The company offers a grace period of 30 days from the premium due date for yearly, half-yearly and quarterly premium frequency and 15 days for monthly premium frequency to arrange the necessary funds for premium payment"]
+        },
+        {"tag": "Purchase",
+         "patterns": ["How to select a plan the according to my needs?","What are the different plans available?","What the details of the particular plan?"],
+         "responses": ["Visit our website www.sbilife.co.in and check Products under that click individual or group plans "]
+        },
+        {"tag": "PolicyStatement",
+         "patterns": ["Policy Statement","Can I revive my policy?","How can I revive my policy","What are test requirements for the policy"],
+         "responses": ["Corner>>Manage Your policy>>Online Revival on WhatsApp Platform","Kindly visit the nearest SBI Life branch and pay the outstanding premium with interest by cheque along with the DGH (Declaration of Good health)","You can generate the Revival Quotation from https://smartcare.sbilife.co.in >> Premium Payment >> Online Revival Transactions menu option."]
+        },
+        {"tag": "Whatsapp",
+         "patterns": ["How to register for whatsapp services","Register for whatsapp services"],
+         "responses": ["Please give a missed called on +919029006575 for registration from your registered mobile number"]
+        },
+        {"tag": "Death Claim Intimation",
+         "patterns": ["Death Claim", "Death Claim Intimation", "How to intimate death claim","How to initiate death claim?" ],
+         "responses": ["Online:sbilife.co.in->services->Claims&Maturity->Online Claim Intimation","Email:claims@sbilife.co.in","Vist nearest SBILife Branch office"]
+        },
+        {"tag": "Revival Quotation",
+         "patterns": ["how can i generate revival quotation?","Generate a revival quotation?","How to see my revivial qoutation?"],
+         "responses": ["You can generate the revival quotation as well revive the policy by choosing the option of Service Corner>>Manage Your policy>>Online Revival on WhatsApp Platform.","By logging in https://smartcare.sbilife.co.in >> Premium Payment >> Online Revival","By calling on our toll-free number at 1800-267-9090", "By writing to us at info@sbilife.co.in."]
+        },
+        {"tag": "Other Services",
+         "patterns": ["Other Services","Policy Queries","Unknown Queries"],
+         "responses": ["Send email to info@sbilife.co.in with relevant Policy number,DOB and Customer Id","Customer Care:1800-267-9090"]
+        },
+        {"tag": "Exit",
+         "patterns": ["Exit","Goodbye","Bye","Thanks"],
+         "responses": ["Thanks for Visiting"]
+        }             
+        ]
+}
